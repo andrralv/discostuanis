@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState , lazy } from 'react';
 import Modal from "react-modal";
 import getArtists from "./api/getArtists";
 import getAlbums from "./api/getAlbums";
@@ -81,7 +81,8 @@ function Artistas(props: any) {
         const releaseElements = releaseList.map((release: any) => {
             return Object.values(albums).map((album: any) => {
                 if (album.id === release) {
-                    return (<div key={album.coverUrl} className="album-cover" style={{ background: `url(/src/public/covers/${album.coverUrl}) rgba(255, 55, 190, 0.9)`, backgroundRepeat: "round" }}></div>)
+                    const imageUrl = new URL(`/src/public/covers/${album.coverUrl}.jpeg`, import.meta.url)
+                    return (<div key={album.coverUrl} className="album-cover" style={{ background: `url(${imageUrl}) rgba(255, 55, 190, 0.9)`, backgroundRepeat: "round" }}></div>)
                 }
             })
         })
@@ -89,6 +90,7 @@ function Artistas(props: any) {
     }
 
     function setArtistModal(artist: any) {
+        const imageUrl = new URL(`/src/public/bandimages/${artist.photourl}.png`, import.meta.url)
         const modal = <div className="artist-modal">
             <div className="close-modal">
                  <img src={x_icon} onClick={() => setIsOpen(false)} />

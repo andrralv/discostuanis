@@ -8,7 +8,7 @@
         "tags": "Punk, Crust Punk, Pop",
         "links": "http://tesorodelmal.bandcamp.com",
         "id": "postmusicatesorodelmal",
-        "coverUrl": "post-musica.jpeg"
+        "coverUrl": "post-musica"
     },
     "Perro Tieso": {
         "\ufeffnumero": "1",
@@ -19,7 +19,7 @@
         "tags": "Jazz, Lounge, Costa Rica",
         "links": "http://elsegundomejormonodecostarica.bandcamp.com",
         "id": "perrotiesoesmmcr",
-        "coverUrl": "elsegundomejor.jpeg"
+        "coverUrl": "elsegundomejor"
     },
     "LUOCEN": {
         "\ufeffnumero": "2",
@@ -30,7 +30,7 @@
         "tags": "Chiptune, Electronica, edm, Costa Rica",
         "links": "http://agnosplus.bandcamp.com",
         "id": "luocenagnosplus",
-        "coverUrl": "luocen.jpeg"
+        "coverUrl": "luocen"
     },
     "Yo Ven\u00eda Manejando": {
         "\ufeffnumero": "3",
@@ -41,7 +41,7 @@
         "tags": "Experimental, Indie Rock",
         "links": "http://rancholindo.bandcamp.com",
         "id": "yoveniamanejandorancholindo",
-        "coverUrl": "rancholindo.jpeg"
+        "coverUrl": "rancholindo"
     },
     "M\u00fasica Mala": {
         "\ufeffnumero": "4",
@@ -52,7 +52,7 @@
         "tags": "Experimental, Emo, Costa Rica",
         "links": "http://ceniza.bandcamp.com; http://instagram.com/cenizacr",
         "id": "musicamalaceniza",
-        "coverUrl": "musicamala.jpeg"
+        "coverUrl": "musicamala"
     },
     "Trabajar Desde La Casa": {
         "\ufeffnumero": "5",
@@ -63,6 +63,6 @@
         "tags": "Indie Rock, Lloradera",
         "links": "http://vicepresidente.bandcamp.com",
         "id": "tddlcvicepresidente",
-        "coverUrl": "tddlc.jpeg"
+        "coverUrl": "tddlc"
     }
 }
