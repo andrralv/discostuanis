@@ -1,0 +1,68 @@
+{
+    "Post-M\u00fasica": {
+        "\ufeffnumero": "0",
+        "name": "Post-M\u00fasica",
+        "artist": "Tesoro del Mal",
+        "year": "2020",
+        "info": "Punk de residencial barato",
+        "tags": "Punk, Crust Punk, Pop",
+        "links": "http://tesorodelmal.bandcamp.com",
+        "id": "postmusicatesorodelmal",
+        "coverUrl": "post-musica.jpeg"
+    },
+    "Perro Tieso": {
+        "\ufeffnumero": "1",
+        "name": "Perro Tieso",
+        "artist": "El Segundo Mejor Mono de Costa Rica",
+        "year": "2023",
+        "info": "Jazz Lounge",
+        "tags": "Jazz, Lounge, Costa Rica",
+        "links": "http://elsegundomejormonodecostarica.bandcamp.com",
+        "id": "perrotiesoesmmcr",
+        "coverUrl": "elsegundomejor.jpeg"
+    },
+    "LUOCEN": {
+        "\ufeffnumero": "2",
+        "name": "LUOCEN",
+        "artist": "A\u00f1os Plus",
+        "year": "2021",
+        "info": "Nintendillos",
+        "tags": "Chiptune, Electronica, edm, Costa Rica",
+        "links": "http://agnosplus.bandcamp.com",
+        "id": "luocenagnosplus",
+        "coverUrl": "luocen.jpeg"
+    },
+    "Yo Ven\u00eda Manejando": {
+        "\ufeffnumero": "3",
+        "name": "Yo Ven\u00eda Manejando",
+        "artist": "Rancho Lindo",
+        "year": "2023",
+        "info": "Todo al mismo tiempo",
+        "tags": "Experimental, Indie Rock",
+        "links": "http://rancholindo.bandcamp.com",
+        "id": "yoveniamanejandorancholindo",
+        "coverUrl": "rancholindo.jpeg"
+    },
+    "M\u00fasica Mala": {
+        "\ufeffnumero": "4",
+        "name": "M\u00fasica Mala",
+        "artist": "Ceniza",
+        "year": "2016",
+        "info": "Buena Musica",
+        "tags": "Experimental, Emo, Costa Rica",
+        "links": "http://ceniza.bandcamp.com; http://instagram.com/cenizacr",
+        "id": "musicamalaceniza",
+        "coverUrl": "musicamala.jpeg"
+    },
+    "Trabajar Desde La Casa": {
+        "\ufeffnumero": "5",
+        "name": "Trabajar Desde La Casa",
+        "artist": "Vicepresidente",
+        "year": "2020",
+        "info": "Guitarritas",
+        "tags": "Indie Rock, Lloradera",
+        "links": "http://vicepresidente.bandcamp.com",
+        "id": "tddlcvicepresidente",
+        "coverUrl": "tddlc.jpeg"
+    }
+}

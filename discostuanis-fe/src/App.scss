@@ -1,0 +1,349 @@
+@import './Styles.scss';
+
+.App {
+  margin: 0 auto;
+  min-height: calc(100vh - 70px);
+}
+
+#root {
+  text-align: center;
+}
+
+.landing-image-off {
+  margin: 0 auto;
+  img {
+    width: 400px;
+    @include desktop {
+      width: 600px;
+    }
+  }
+  cursor: url('../public/bic.png'), auto;
+  &:active {
+    cursor: url('../public/bic-twisted.png'), auto;
+  }
+}
+
+.landing-image-on {
+  margin: 0 auto;
+  img {
+    width: 400px;
+    @include desktop {
+      width: 600px;
+    }
+  }
+  cursor: url('../public/bic.png'), auto;
+  &:active {
+    cursor: url('../public/bic-on.png'), auto;
+  }
+}
+
+.gif-container {
+  position: absolute;
+  width: 200px;
+  top: 10vh;
+  left: 50vw;
+  .gif-image {
+    position: relative;
+    height: 20vh;
+    width: 200px;
+  }
+}
+
+.nav {
+  height: 30px;
+  width: 100%;
+  font-weight: 600;
+  @include desktop {
+    text-align: right;
+  }
+
+
+  @media (prefers-color-scheme: light) {
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px;
+    li {
+      display: inline-block;
+      margin: 10px 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+.page-title {
+  font-family: 'White Storm';
+  font-size: 65px;
+  @include desktop {
+    font-size: 89px;
+  }
+  margin: 0;
+  line-height: normal;
+  margin-bottom: 30px;
+  cursor: url('../public/nota.png'), auto;
+}
+
+.page-title-icons {
+  font-family: 'Thailand';
+  font-size: 48px;
+  margin: 0;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.album-list {
+  margin: 0 auto;
+}
+.album-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+.album-cover {
+  flex: 0 0 17.3333%;
+  min-height: 300px;
+  width: 300px;
+  min-width: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 20px auto;
+  @include desktop {
+    margin: 20px;
+  }
+
+
+  &:hover {
+    background-blend-mode: multiply;
+  }
+
+  .album-info {
+    display: none;
+
+    .more-info {
+      margin-top: 20px;
+    }
+
+    a {
+      display: block;
+      text-shadow: 2px 2px 4px #000000;
+    }
+  }
+  &:hover > .album-info {
+    display: block;
+  }
+}
+
+.giftwo {
+  height: 60px;
+}
+
+
+.footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 70px;
+}
+
+.modal-info, .modal-contact {
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.modal-contact {
+  text-align: center;
+  cursor: url("./assets/cancel.png"), auto;
+}
+
+.modal-info {
+  cursor: url("./assets/cancel.png"), auto;
+}
+
+.info-gif {
+  text-align: center;
+}
+
+.info-gif img {
+  max-height: 250px;
+}
+
+.contact-gif img {
+  max-height: 100px;
+}
+
+.general-modal {
+  overflow-y: scroll;
+  max-height: 80%;
+}
+
+.artist-list {
+  padding: 0;
+  height: 100%;
+}
+
+.artist-list-element {
+  list-style-type: none;
+  line-height: 2.5;
+
+  a {
+    font-weight: 600;
+    @media (prefers-color-scheme: dark) {
+      color: white;
+    }
+    color: #0000;
+    background:
+            linear-gradient(90deg,#1095c1 50%,#000 0)
+            var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .4s;
+
+    &:hover {
+      --_p: 0%;
+    }
+  }
+}
+
+.close-modal {
+  text-align: right;
+  margin-right: 0px;
+  cursor: pointer;
+
+  img {
+    height: 20px;
+  }
+}
+
+.artist-title {
+  color: black;
+  text-align: center;
+  font-family: 'White Storm';
+  font-size: 35px;
+  @include desktop {
+    margin-left: 40px;
+    font-size: 70px;
+    text-align: left;
+  }
+}
+
+.artist-title-photo {
+  display: flex;
+  text-align: center;
+  flex-direction: column-reverse;
+  @include desktop {
+    flex-direction: row;
+  }
+  justify-content: space-between;
+}
+
+.artist-cover {
+  min-width: 300px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  @include desktop {
+    min-width: 400px;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+  }
+  clip-path: inset(10px 10px 10px 10px);
+}
+
+.artist-bio {
+  width: 90%;
+  text-align: justify;
+  margin-left: 20px;
+  @include desktop {
+    margin-left: 40px;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: black;
+  }
+}
+
+.artist-tags {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  justify-content: center;
+  @include desktop {
+    margin-left: 35px;
+    justify-content: start;
+  }
+  display: flex;
+  @media (prefers-color-scheme: dark) {
+    color: black;
+  }
+
+  .artist-tag {
+    background-color: #afff24;
+    padding: 1px 8px;
+    border-radius: 15px;
+    margin: 0 5px;
+  }
+}
+
+.artist-links {
+  text-align: center;
+  padding-left: 25px;
+  list-style-type: none;
+  font-style: oblique;
+  overflow: hidden;
+  max-width: 80vw;
+  @include desktop {
+    margin-left: 35px;
+    text-align: left;
+    list-style-type: disc;
+  }
+  @media (prefers-color-scheme: dark) {
+    color: black;
+  }
+
+  .artist-link {
+    line-height: 2em;
+  }
+
+  .artist-link a {
+    color: black;
+  }
+}
+
+.artist-subsection-title {
+  display: none;
+  text-align: left;
+  margin-left: 40px;
+  @media (prefers-color-scheme: dark) {
+    color: black;
+  }
+  @include desktop {
+    display: block;
+  }
+}
+
+.artist-releases {
+  text-align: center;
+  margin: 0 auto;
+  @include desktop {
+    width: auto;
+    margin-left: 20px;
+  }
+}
+
+.artist-videos {
+  text-align: left;
+  margin-left: 40px;
+  display: none;
+  @include desktop {
+    display: block;
+  }
+}
