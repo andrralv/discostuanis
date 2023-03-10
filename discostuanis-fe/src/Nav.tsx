@@ -75,6 +75,7 @@ const Nav = () => {
             isOpen={modalIsOpen}
             onRequestClose={closeModal}
             overlayClassName={'general-modal'}
+            // @ts-ignore
             style={modalStyles}
             contentLabel="Example Modal"
         >

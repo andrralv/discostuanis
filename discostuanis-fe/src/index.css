@@ -59,15 +59,15 @@ button:focus-visible {
 
 @font-face {
   font-family: "White Storm";
-  src: url('../public/White Storm.otf') format("truetype");
+  src: url('./public/White Storm.otf') format("truetype");
 }
 @font-face {
   font-family: "Equalizer";
-  src: url('../public/395 Equalizer.ttf') format("truetype");
+  src: url('./public/395 Equalizer.ttf') format("truetype");
 }
 @font-face {
   font-family: "Thailand";
-  src: url('../public/Thailand Icons.otf') format("truetype");
+  src: url('./public/Thailand Icons.otf') format("truetype");
 }
 
 @media (prefers-color-scheme: light) {

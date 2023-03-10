@@ -18,7 +18,7 @@ export function AlbumList() {
 function AlbumCover(props: any) {
     const { albumInfo } = props;
     return (
-        <div className="album-cover" style={{ background: `url(../public/covers/${albumInfo.coverUrl}) rgba(255, 55, 190, 0.9)`, backgroundRepeat: "round" }}>
+        <div className="album-cover" style={{ background: `url(../src/public/covers/${albumInfo.coverUrl}) rgba(255, 55, 190, 0.9)`, backgroundRepeat: "round" }}>
             <div className="album-info">
                 <div className="title">{albumInfo.artist}</div>
                 <div className="info">{albumInfo.name}</div>

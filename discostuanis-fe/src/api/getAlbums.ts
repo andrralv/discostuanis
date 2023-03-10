@@ -24,13 +24,15 @@ export default async function getAlbums() {
     //     console.log('oops');
     //     albums = albumsFile;
     // }
+    // @ts-ignore
     albums = albumsFile;
     for (let i of Object.values(albums)) {
         const socials = {};
         const linkArray = i.links ? i.links.split(';') : []; // ts-ignore
         for (let j of linkArray) {
             if (j.includes(BANDCAMP)) {
-                socials[BANDCAMP] = j; // ts-ignore
+                // @ts-ignore
+                socials[BANDCAMP] = j;
             }
         }
         i.socials = socials;

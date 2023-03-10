@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import getAlbums from "./api/getAlbums";
 import Nav from "./Nav";
 import AlbumList from "./AlbumList";
-import LandingImage from "../public/dqsp22.png";
-import LighterSound from "../public/lighter.mp3";
+import LandingImage from "./public/dqsp22.png";
+import LighterSound from "./public/lighter.mp3";
 import giftwo from "./assets/notes2.gif";
 
 import './App.scss'

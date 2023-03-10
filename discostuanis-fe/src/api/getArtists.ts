@@ -20,6 +20,7 @@ export default async function getArtists() {
     // } catch (e) {
     //     artists = artistsFile;
     // }
+    // @ts-ignore
     artists = artistsFile;
 
     return artists;

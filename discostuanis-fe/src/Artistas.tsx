@@ -81,7 +81,7 @@ function Artistas(props: any) {
         const releaseElements = releaseList.map((release: any) => {
             return Object.values(albums).map((album: any) => {
                 if (album.id === release) {
-                    return (<div key={album.coverUrl} className="album-cover" style={{ background: `url(../../public/covers/${album.coverUrl}) rgba(255, 55, 190, 0.9)`, backgroundRepeat: "round" }}></div>)
+                    return (<div key={album.coverUrl} className="album-cover" style={{ background: `url(../../src/public/covers/${album.coverUrl}) rgba(255, 55, 190, 0.9)`, backgroundRepeat: "round" }}></div>)
                 }
             })
         })
@@ -105,7 +105,7 @@ function Artistas(props: any) {
                         <h3 className="artist-subsection-title">Videos Musicales</h3>
                         <div className="artist-videos">{getVideos(artist.videos)}</div>
                     </div>
-                    <div className="artist-cover" style={{ background: `url(../../public/bandimages/${artist.photourl})`, backgroundRepeat: "round" }}></div>
+                    <div className="artist-cover" style={{ background: `url(../../src/public/bandimages/${artist.photourl})`, backgroundRepeat: "round" }}></div>
                 </div>
             </div>
         </div>
@@ -127,6 +127,7 @@ function Artistas(props: any) {
                         isOpen={modalIsOpen}
                         onRequestClose={() => setIsOpen(false)}
                         overlayClassName={'general-modal'}
+                        // @ts-ignore
                         style={customStyles}
                         contentLabel="Example Modal"
                     >

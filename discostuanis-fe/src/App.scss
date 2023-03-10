@@ -17,9 +17,9 @@
       width: 600px;
     }
   }
-  cursor: url('../public/bic.png'), auto;
+  cursor: url('./public/bic.png'), auto;
   &:active {
-    cursor: url('../public/bic-twisted.png'), auto;
+    cursor: url('./public/bic-twisted.png'), auto;
   }
 }
 
@@ -31,9 +31,9 @@
       width: 600px;
     }
   }
-  cursor: url('../public/bic.png'), auto;
+  cursor: url('./public/bic.png'), auto;
   &:active {
-    cursor: url('../public/bic-on.png'), auto;
+    cursor: url('./public/bic-on.png'), auto;
   }
 }
 
@@ -83,7 +83,7 @@
   margin: 0;
   line-height: normal;
   margin-bottom: 30px;
-  cursor: url('../public/nota.png'), auto;
+  cursor: url('./public/nota.png'), auto;
 }
 
 .page-title-icons {
