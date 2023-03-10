@@ -90,7 +90,8 @@ function Artistas(props: any) {
     }
 
     function setArtistModal(artist: any) {
-        const imageUrl = new URL(`/src/public/bandimages/${artist.photourl}.png`, import.meta.url)
+        console.log(artist);
+        const bandUrl = new URL(`/src/public/bandimages/${artist.photourl}.jpg`, import.meta.url)
         const modal = <div className="artist-modal">
             <div className="close-modal">
                  <img src={x_icon} onClick={() => setIsOpen(false)} />
@@ -107,7 +108,7 @@ function Artistas(props: any) {
                         <h3 className="artist-subsection-title">Videos Musicales</h3>
                         <div className="artist-videos">{getVideos(artist.videos)}</div>
                     </div>
-                    <div className="artist-cover" style={{ background: `url(/src/public/bandimages/${artist.photourl})`, backgroundRepeat: "round" }}></div>
+                    <div className="artist-cover" style={{ background: `url(${bandUrl})`, backgroundRepeat: "round" }}></div>
                 </div>
             </div>
         </div>
