@@ -64,5 +64,60 @@
         "links": "http://vicepresidente.bandcamp.com",
         "id": "tddlcvicepresidente",
         "coverUrl": "tddlc"
+    },
+    "El Ultimo Suzuki Samurai": {
+        "\ufeffnumero": "6",
+        "name": "El Ultimo Suzuki Samurai",
+        "artist": "Funeral Vaquero",
+        "year": "2023",
+        "info": "Misterioso",
+        "tags": "Western, Sabanero, Doom, Misterio",
+        "links": "https://funeralvaquero.bandcamp.com/track/el-ltimo-suzuki-samurai",
+        "id": "fvelultimosuziki",
+        "coverUrl": "fvsuzuki"
+    },
+    "Mujeres de Nuestra Edad": {
+        "\ufeffnumero": "7",
+        "name": "Sintonias",
+        "artist": "Mujeres de Nuestra Edad",
+        "year": "2023",
+        "info": "Crude Punk, Criollo",
+        "tags": "Crude Punk, Criollo",
+        "links": "https://mujeresdenuestraedad.bandcamp.com/album/sinton-as",
+        "id": "mdnesintonias",
+        "coverUrl": "mdnes"
+    },
+    "Descubre Tu Mente": {
+        "\ufeffnumero": "8",
+        "name": "Descubre tu Mente",
+        "artist": "Cerebro Mental",
+        "year": "2023",
+        "info": "idm, synth, matrix, nineties, techno, eurobeat",
+        "tags": "idm, synth, matrix, nineties, techno, eurobeat",
+        "links": "https://cerebromental.bandcamp.com/track/descubre-tu-mente",
+        "id": "cmdescubre",
+        "coverUrl": "cmdescubre"
+    },
+    "Un Sentimiento": {
+        "\ufeffnumero": "9",
+        "name": "Un Sentimiento",
+        "artist": "Mujeres de Nuestra Edad",
+        "year": "2023",
+        "info": "singer-songwriter, folk",
+        "tags": "singer-songwriter, folk",
+        "links": "https://mujeresdenuestraedad.bandcamp.com/track/un-sentimiento",
+        "id": "mdneus",
+        "coverUrl": "mdneus"
+    },
+    "Magnapinna": {
+        "\ufeffnumero": "11",
+        "name": "Magnapinna",
+        "artist": "El Segundo Mejor Mono de Costa Rica",
+        "year": "2023",
+        "info": "experimental, jazz",
+        "tags": "experimental, jazz, fusion",
+        "links": "https://elsegundomejormonodecostarica.bandcamp.com/track/magnapinna",
+        "id": "esmmdcrm",
+        "coverUrl": "esmmdcrm"
     }
 }
