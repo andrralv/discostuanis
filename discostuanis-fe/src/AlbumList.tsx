@@ -1,14 +1,16 @@
 import { useContext, memo } from "react";
 import { Context } from "./App";
+import { sortBy, reverse } from "lodash";
 import { type Album } from "./api/getAlbums";
 
 export function AlbumList() {
     const [ albums ] = useContext(Context);
+    const ordered = sortBy(albums, (o) => parseInt(o.numero)).reverse()
     return (
         <div className="album-list">
             <div className="album-list-container">
-                {albums.length > 0 ? albums.map((album: Album, index: number) => {
-                    return (<AlbumCover albumInfo={album} key={index}/>)
+                {albums.length > 0 ? ordered.map((album: Album) => {
+                    return (<AlbumCover albumInfo={album} key={album.numero}/>)
                 }) : ''}
             </div>
         </div>

@@ -8,6 +8,7 @@ export type Album = {
     coverUrl: string,
     links?: string;
     socials?: Object;
+    numero: number;
 }
 
 const BANDCAMP = 'bandcamp';
