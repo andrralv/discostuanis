@@ -384,6 +384,7 @@
 
   .epk-img-feature {
     height: 300px;
+    width: -webkit-fill-available;
   }
 
   @include desktop {
