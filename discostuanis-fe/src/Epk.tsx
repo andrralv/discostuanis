@@ -59,7 +59,7 @@ const getLinks = (links: Array<String>) => {
 
 const getDownloads = () => {
   return (<div className="downloads-list">
-    <div className="download-link-container"><a href={'https://drive.google.com/file/d/1Fy9quyo96-OqPAds5gR7vJrKu0k29IMh/view?usp=sharing'} download>Descargar EP.zip</a></div>
+    <div className="download-link-container"><a href={'https://drive.google.com/drive/folders/1s0RyVE2txeKpl6Vlh5thvXbmJu693ry4?usp=sharing'} download>Descargar EP.zip</a></div>
     <div className="download-link-container"><a href={'https://drive.google.com/file/d/1x0MrHGxku0adqcPdQ1SHkspd73mhyb3q/view?usp=sharing'} download>Descargar este EPK</a></div>
     <div className="download-link-container"><a href={'https://drive.google.com/file/d/1gQAZsnRJfrQ1kB9kITQdyG3XH8BUCaYH/view?usp=sharing'} download>Descargar Fotos.zip</a></div>
   </div>)
