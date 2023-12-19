@@ -348,3 +348,74 @@
     display: block;
   }
 }
+
+.epk {
+  ::selection {
+    background: red;
+  }
+  padding: 20px 20px 40px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: khaki;
+  color:#020202;
+  cursor: url('./public/bicpen.png') -80 80, auto;
+
+  .links-title {
+    margin-bottom: 20px;
+
+  }
+
+  .link {
+    list-style-type: none;
+  }
+
+  li::before {
+     color: red;
+  }
+
+  .band-name {
+    // padding-bottom: 20px;
+    background: red;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+    margin-bottom: 30px;
+    width:fit-content;
+  }
+
+  .epk-img-feature {
+    height: 300px;
+  }
+
+  @include desktop {
+    .epk-img-feature {
+      height: 600px;
+    }
+ }
+
+  .band-list-links {
+    a {
+      color: red;
+  
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+  .downloads-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    a {
+      color: crimson;
+      font-weight: 600;
+      background-color: chartreuse;
+      padding: 2px;
+    }
+  }
+
+  .band-list-text {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

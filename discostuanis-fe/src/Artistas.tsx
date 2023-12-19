@@ -90,7 +90,6 @@ function Artistas(props: any) {
     }
 
     function setArtistModal(artist: any) {
-        console.log(artist);
         const bandUrl = new URL(`/src/public/bandimages/${artist.photourl}.jpg`, import.meta.url)
         const modal = <div className="artist-modal">
             <div className="close-modal">

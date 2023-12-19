@@ -7,6 +7,7 @@ import {
 import App from './App'
 import Error from './Error'
 import Artistas from "./Artistas";
+import Epk from "./Epk";
 
 import './index.css'
 
@@ -24,10 +25,14 @@ const router = createBrowserRouter([
         path: "artista/:contactId",
         element: <Artistas />,
     },
+    {
+        path: "epk/buen-camino",
+        element: <Epk />,
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
+  <>
       <RouterProvider router={router} />
-  </React.StrictMode>,
+  </>,
 )
