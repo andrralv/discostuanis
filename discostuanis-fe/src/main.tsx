@@ -27,7 +27,11 @@ const router = createBrowserRouter([
     },
     {
         path: "epk/buen-camino",
-        element: <Epk />,
+        element: <Epk band={"BUEN_CAMINO_1"}/>,
+    },
+    {
+        path: "epk/buen-camino_2",
+        element: <Epk band={"BUEN_CAMINO_2"}/>,
     },
 ]);
 

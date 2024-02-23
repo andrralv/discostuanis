@@ -349,13 +349,20 @@
   }
 }
 
+.buen_camino_1 {
+  background-color: khaki;
+}
+
+.buen_camino_2 {
+  background-color: rgb(144, 203, 160);
+}
+
 .epk {
   ::selection {
     background: red;
   }
   padding: 20px 20px 40px 20px;
   font-family: 'Courier New', Courier, monospace;
-  background-color: khaki;
   color:#020202;
   cursor: url('./public/bicpen.png') -80 80, auto;
 
