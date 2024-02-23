@@ -1,6 +1,6 @@
 {
-  "band": {
-    "name": "Buen Camino",
+  "band_1": {
+    "name": "BUEN_CAMINO_1", 
     "text": {
       "1": "Buen Camino es el seudónimo y proyecto de grabación musical de André Rodríguez, una de las personas detrás de Vicepresidente. Entre el 2014 y el 2020 Vicepresidente se consolidó como una banda fundacional de la escena indie en San José y a la fecha aún sorprende la cantidad de personas jóvenes que le citan como referencia y parte importante de su formación.",
       "2": "Vicepresidente se encuentra en una pausa indefinida y durante el 2022 André Rodriguez empieza un proceso sin una intención predeterminada. En este proceso consigue equipo, consume toneladas de información sobre grabación y producción musical, lidera sesiones de improvisación con amigos de otras bandas y empieza a darle forma a un set de canciones propias.",
@@ -11,7 +11,28 @@
     "links": {
       "1": "https://buencamino.bandcamp.com",
       "2": "https://www.instagram.com/bc___ap/",
-      "3": "https://open.spotify.com/album/7CYYQQXzVLHNnwD2ty8xbl"
+      "3": "https://open.spotify.com/album/7CYYQQXzVLHNnwD2ty8xbl",
+      "4": "https://drive.google.com/drive/folders/1s0RyVE2txeKpl6Vlh5thvXbmJu693ry4?usp=sharing",
+      "5": "https://drive.google.com/file/d/1x0MrHGxku0adqcPdQ1SHkspd73mhyb3q/view?usp=sharing",
+      "6": "https://drive.google.com/drive/folders/1voKmW3-1b92DmH1FxOMbOhhteeSY2dzS?usp=drive_link"
+    }
+  },
+  "band_2": {
+    "name": "BUEN_CAMINO_2",
+    "text": {
+      "1": "Buen Camino es el seudónimo y proyecto de grabación musical de André Rodríguez, una de las personas detrás de Vicepresidente. Entre el 2014 y el 2020 Vicepresidente se consolidó como una banda fundacional de la escena indie en San José y a la fecha aún sorprende la cantidad de personas jóvenes que le citan como referencia y parte importante de su formación.",
+      "2": "Vicepresidente se encuentra en una pausa indefinida y durante el 2022 André Rodriguez empieza un proceso sin una intención predeterminada. En este proceso consigue equipo, consume toneladas de información sobre grabación y producción musical, lidera sesiones de improvisación con amigos de otras bandas y empieza a darle forma a un set de canciones propias.",
+      "3": "El segundo lanzamiento marca una diversidad de sonidos representativa del resto de la música de Buen Camino. Estas canciones serán parte de un disco de larga duración que espera salir en la primera mitad del 2024.",
+      "4": "El sencillo elegido para promocionar este EP es EROWID",
+      "5": "Saber Perder / EROWID estará disponible en todas las plataformas de streaming el 23/02/24."
+    },
+    "links": {
+      "1": "https://buencamino.bandcamp.com",
+      "2": "https://www.instagram.com/bc___ap/",
+      "3": "https://open.spotify.com/album/6J7tHhYCEyvo1O6yLyMIaX?si=DlDOQk75TiaUWjUU4O00pw",
+      "4": "https://drive.google.com/drive/folders/1YhZPWalnsFl7GvQG94xEJ2QMTgQZXJWq?usp=drive_link",
+      "5": "https://drive.google.com/file/d/1PegPxD-jup3LWZ2VI7Eo8WTtZbqh67hl/view?usp=drive_link",
+      "6": "https://drive.google.com/drive/folders/1voKmW3-1b92DmH1FxOMbOhhteeSY2dzS?usp=drive_link"
     }
   }
 }
