@@ -17,8 +17,6 @@ function Epk(props: Props) {
     _getEpk().then(res => setEpk(res));
   }, [])
 
-  console.log(band);
-
   if (epk) {
     return (<div className={`epk ${band.toLowerCase()}`}>
       {getTitle(epk.name)}
